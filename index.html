@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+	<link rel='stylesheet' href="style.css" type='text/css'></link>
+	<title>Yik Yak</title>
+</head>
+<body>
+	<header>
+		<div class="nav-bar">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<button type="button" class="btn btn-default form-btn">
+							<i class="fa fa-binoculars"></i>
+						</button>
+						<button type="button" class="btn btn-default form-btn">
+							<i class="fa fa-user"></i>
+						</button>
+						<button type="button" class="btn btn-default form-btn">
+							<i class="fa fa-bell"></i>
+						</button>
+					</div>
+					<div class="col-sm-4 nav-bar-center">
+						<img src="yikyak.png" class="nav-brand" alt="">
+					</div>
+					<div class="col-sm-4 nav-bar-right">
+						
+						<button type="button" class="btn btn-default" id="compose-btn">
+							<i class="fa fa-pencil-square-o" style="position: relative; left: 2px; top: 1px;"></i>
+							Compose
+						</button>
+						<button type="button" class="btn btn-default rounded-btn">
+							<i class="fa fa-refresh"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="newsfeed-selector">
+
+		</div>
+	</header>
+	
+	<div class="container">
+		
+		<div class="newsfeed-el">
+			<textarea class="form-textarea" placeholder="What's on your mind?"></textarea >
+			<div class="form-actions clearfix">
+				<button type="button" class="btn btn-default form-btn">
+					CONTINUE
+				</button>
+				<span id="form-textcount">
+					200
+				</span>
+			</div>
+		</div>
+		
+		<div>
+			<div class="newsfeed-el newsfeed-post">
+				<div class="row newsfeed-el-main">
+					<div class="col-sm-11">
+						"Sometimes I sit in a bathroom stall when I don't even need to poop, just to be away from other people"
+					</div>
+					<div class="col-sm-1 newsfeed-voter">
+						<div class="row">
+							<i class="fa fa-chevron-up fa-lg"></i>
+						</div>
+						<div class="row newsfeed-vote-count">6</div>
+						<div class="row">
+							<i class="fa fa-chevron-down fa-lg"></i>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<span class="newsfeed-time">
+							1m
+						</span>
+					</div>
+				</div>
+				<div class="row newsfeed-replies">
+					<div class="col-sm-2">
+						<span>
+							<i class="fa fa-comment"></i>
+						</span>
+						<span>
+							Replies
+						</span>
+					</div>
+					<div class="col-sm-10">
+						<span>	
+							<i class="fa fa-ellipsis-h"></i>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="newsfeed-reply-form">
+				<textarea class="form-textarea" placeholder="Yak bak..."></textarea >
+				<div class="form-actions clearfix">
+					<button type="button" class="btn btn-default form-btn">
+						CONTINUE
+					</button>
+					<span id="form-textcount">
+						200
+					</span>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="newsfeed-el newsfeed-post">
+				<div class="row newsfeed-el-main">
+					<div class="col-sm-11">
+						"March is the place where grades go to die"
+					</div>
+					<div class="col-sm-1 newsfeed-voter">
+						<div class="row">
+							<i class="fa fa-chevron-up fa-lg"></i>
+						</div>
+						<div class="row newsfeed-vote-count">6</div>
+						<div class="row">
+							<i class="fa fa-chevron-down fa-lg"></i>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<span class="newsfeed-time">
+							10h
+						</span>
+					</div>
+				</div>
+				<div class="row newsfeed-replies">
+					<div class="col-sm-2">
+						<span>
+							<i class="fa fa-comment"></i>
+						</span>
+						<span>
+							Replies
+						</span>
+					</div>
+					<div class="col-sm-10">
+						<span>	
+							<i class="fa fa-ellipsis-h"></i>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="newsfeed-reply-form">
+				<textarea class="form-textarea" placeholder="Yak bak..."></textarea >
+				<div class="form-actions clearfix">
+					<button type="button" class="btn btn-default form-btn">
+						CONTINUE
+					</button>
+					<span id="form-textcount">
+						200
+					</span>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="newsfeed-el newsfeed-post">
+				<div class="row newsfeed-el-main">
+					<div class="col-sm-11">
+						"I could really use that hour we lost during daylight savings right about now"
+					</div>
+					<div class="col-sm-1 newsfeed-voter">
+						<div class="row">
+							<i class="fa fa-chevron-up fa-lg"></i>
+						</div>
+						<div class="row newsfeed-vote-count">6</div>
+						<div class="row">
+							<i class="fa fa-chevron-down fa-lg"></i>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<span class="newsfeed-time">
+							1m
+						</span>
+					</div>
+				</div>
+				<div class="row newsfeed-replies">
+					<div class="col-sm-2">
+						<span>
+							<i class="fa fa-comment"></i>
+						</span>
+						<span>
+							Replies
+						</span>
+					</div>
+					<div class="col-sm-10">
+						<span>	
+							<i class="fa fa-ellipsis-h"></i>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="newsfeed-reply-form">
+				<textarea class="form-textarea" placeholder="Yak bak..."></textarea >
+				<div class="form-actions clearfix">
+					<button type="button" class="btn btn-default form-btn">
+						CONTINUE
+					</button>
+					<span id="form-textcount">
+						200
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+</body>
+</html>

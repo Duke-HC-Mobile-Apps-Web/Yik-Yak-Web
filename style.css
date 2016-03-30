@@ -1,0 +1,162 @@
+body {
+	font-family: 'Varela Round', sans-serif;
+	background-color: #eee;
+	padding-bottom: 60px;
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+.nav-bar {
+	background: white;
+	padding: 10px 0px;
+}
+
+.nav-bar-right .btn {
+	float: right;
+}
+
+.nav-bar-center {
+	text-align: center;
+}
+
+.nav-brand {
+	max-height: 20px;
+  margin-top: 4px;
+}
+
+.nav-bar .btn {
+	margin: 0px 8px; 
+}
+.newsfeed-el {
+		margin: 30px 0px;
+    padding-top: 15px;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: white;
+}
+
+.newsfeed-selector {
+	height: 60px;
+	background: #0dd5b2;
+}
+
+.newsfeed-el-main {
+	padding-bottom: 15px;
+}
+
+.newsfeed-el i.fa:hover {
+	cursor: pointer;
+}
+
+.newsfeed-el .btn:hover,
+.newsfeed-reply-form .btn:hover {
+	background:white;
+}
+
+.newsfeed-voter {
+	text-align: center;
+}
+
+.newsfeed-replies {
+	border-top: 1px solid #eee;
+	padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.newsfeed-replies span {
+	padding: 0px 4px;
+}
+
+.rounded-btn {
+	border-radius: 50%;
+	text-align: center;
+}
+
+#compose-btn {
+	border-radius: 25px;
+	text-align: center;
+	color: white;
+	background:  #0dd5b2;
+	border: none;
+	width: 120px;
+}
+
+.newsfeed-replies > div:first-child {
+	border-right: 1px solid #eee;
+}
+
+.newsfeed-replies span {
+	color: #0dd5b2;
+}
+
+.newsfeed-voter .fa {
+	color: #ccc;
+}
+
+.newsfeed-time {
+	font-size: 12px;
+	margin-bottom: 10px;
+	display: block;
+	color: #ccc;
+}
+
+.newsfeed-vote-count {
+	font-size: 20px;
+	color: #0dd5b2;
+}
+
+.newsfeed-post {
+	margin-bottom: 0px;
+	border-bottom: none;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+.form-textarea {
+	width: 100%;
+	resize: none;
+	height: 80px;
+	border: none;
+}
+
+.form-actions {
+	border-top: 1px solid #eee;
+  padding-top: 10px;
+}
+.form-actions * {
+	float: right;
+}
+
+#form-textcount {
+	padding: 6px 12px;
+}
+
+.form-btn {
+	border: none;
+	color: #0dd5b2;
+}
+
+*:focus {
+    outline: none;
+}
+
+.newsfeed-reply-form {
+	border: 1px solid #ccc;
+	background: white;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	padding-top: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 5px;
+}
+
+.newsfeed-reply-form textarea {
+	height: 40px;
+}
+
